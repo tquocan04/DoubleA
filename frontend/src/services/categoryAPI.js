@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://192.168.1.125:8080/api/loaihang';
+const API_URL = 'http://localhost:8080/api/loaihang';
 
 const getCategories = async () => {
   try {

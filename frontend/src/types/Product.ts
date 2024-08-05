@@ -7,7 +7,7 @@ export interface ProductType {
     price: string;
   }
  
-  export interface Category{
-    maLH: string[10];
-    tenLH: string;
-  }
+export interface Category{
+  maLH: string[10];
+  tenLH: string;
+}

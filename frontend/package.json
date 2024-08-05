@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-hookz/web": "^24.0.4",
     "axios": "^1.7.3",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.19",
