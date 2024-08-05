@@ -12,12 +12,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/loaihang")
+@CrossOrigin(origins = "http://localhost:3000")
 public class LoaiHangController {
 	
 	@Autowired
     private LoaiHangService loaiHangService;
-	
-	@CrossOrigin(origins = "http://localhost:3000")
+
     @GetMapping
     public List<LoaiHangDTO> getAllLoaiHang() {
 		List<LoaiHangDTO> loaiHang = loaiHangService.getAllLoaiHang();
