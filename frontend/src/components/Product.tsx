@@ -24,8 +24,7 @@ export const Product: React.FC<ProductProps> = ({ product }) => {
       <div className='flex flex-wrap justify-between px-4'>
         <div>
           <div className='flex'>
-            <p className='text-sm'>Stock: </p>
-            <p className='text-sm'>7</p>
+            <p className='text-sm'>Stock: 7</p>
           </div>
           <p className="mt-1 font-bold text-lg text-blue-600">{product.price}</p>
         </div>

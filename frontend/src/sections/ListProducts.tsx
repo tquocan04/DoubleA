@@ -88,9 +88,6 @@ export const ListProducts = () => {
   );
 };
 
-// const CategoriesList = ["All", "An", "Smoothie", "Tea"];
-
-
 const ChipTabs = ({ categories, selectedCategory, setSelectedCategory }) => {
   return (
     <div className="px-36 py-6   flex items-center flex-wrap gap-2">
